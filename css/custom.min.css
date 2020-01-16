@@ -9,3 +9,26 @@
     position: relative;
     padding: 2px 0px;
 }
+.btn.fiverr, .btn.upwork {
+    color: #2ea56d;
+    padding: 6px 15px;
+    background: #fff;
+    border: 1px solid #2ea56d;
+    font-weight: 600;
+}
+img.icon {
+    height: 30px;
+}
+.btn.fiverr:hover,.btn.fiverr:focus, .btn.fiverr:active,
+.btn.upwork:hover,.btn.upwork:focus, .btn.upwork:active {
+    color: #fff;
+    background: #1a8c56;
+    border: 1px solid #1a8c56;
+}
+.btn.fiverr span {
+	vertical-align: middle;
+}
+.btn.upwork {
+    padding: 6px 15px;
+    border: 1px solid #6FDA44;
+}
